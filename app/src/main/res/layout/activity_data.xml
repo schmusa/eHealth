@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_data_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/activity_data_map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                tools:context="de.haukesomm.healthdemo.ui.DataActivity" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_default"
+                style="@style/Text.Subheading.Primary"
+                android:text="@string/data_route_title"
+                android:drawableStart="@drawable/ic_map"
+                android:drawablePadding="@dimen/margin_small"
+                android:drawableTint="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/activity_data_route_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_default"
+                android:layout_marginEnd="@dimen/margin_default"
+                android:gravity="center_vertical"
+                style="@style/Text.Body1.Primary"
+                android:textColor="@android:color/white"
+                android:text="@string/unknown"
+                android:drawableStart="@drawable/ic_map_start"
+                android:drawablePadding="@dimen/margin_small"
+                android:drawableTint="@android:color/white"
+                android:background="@drawable/shape_chip"/>
+
+            <TextView
+                android:id="@+id/activity_data_route_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_default"
+                android:gravity="center_vertical"
+                style="@style/Text.Body1.Primary"
+                android:textColor="@android:color/white"
+                android:text="@string/unknown"
+                android:drawableStart="@drawable/ic_map_destination"
+                android:drawablePadding="@dimen/margin_small"
+                android:drawableTint="@android:color/white"
+                android:background="@drawable/shape_chip"/>
+
+            <View
+                style="@style/Divider" />
+
+            <de.haukesomm.healthdemo.ui.TelematicsGraphView
+                android:id="@+id/activity_data_graph_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_default"
+                app:graphTitle="@string/session_heartrate"
+                app:graphIcon="@drawable/ic_heart_outline"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

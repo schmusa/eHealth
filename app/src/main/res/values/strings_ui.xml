@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">eHealth demo</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="data_delete">Delete</string>
+    <string name="data_graph_maximum">Maximum</string>
+    <string name="data_graph_minimum">Minimum</string>
+    <string name="data_graph_speed_title">Speed</string>
+    <string name="data_map_mapsNotInstalled">Please install the Google Maps app.</string>
+    <string name="data_notAvailable">No data available</string>
+    <string name="data_report_message">If you encounter false data that has a negative effect on
+        your insurance plan you can report it here. It will be checked by a professional and we will
+        inform you once it was removed. Abuse of this feature will result in extra charges. Are you
+        sure you want to proceed?</string>
+    <string name="data_report_proceed">Report</string>
+    <string name="data_report_title">Report false data</string>
+    <string name="data_route_title">Route</string>
+    <string name="data_title">Your driving data</string>
+    <string name="data_unit_speed_kph_full">Kilometers per hour</string>
+    <string name="data_unit_speed_kph_short">kph</string>
+    <string name="data_unit_speed_mph_full">Miles per hour</string>
+    <string name="data_unit_speed_mph_short">mph</string>
+
+    <string name="main_mode">Your Privacy Mode</string>
+    <string name="main_overview">Overview</string>
+    <string name="main_recent">Recent Activity</string>
+    <string name="main_timeline">Timeline</string>
+
+    <string name="privacy_chooser_contentHidden">Tap on the arrow to expand this section.</string>
+    <string name="privacy_chooser_info">
+        Please note: This app evaluates your eHealth data in order to provide you the best
+        ad-experience possible. Changing your privacy mode may result in ads not matching your
+        interests.
+    </string>
+    <string name="privacy_chooser_moreInfo">More Information</string>
+    <string name="privacy_chooser_title">Privacy Mode</string>
+    <string name="privacy_custom_data">What data would you like to submit?</string>
+    <string name="privacy_custom_data_gps_title">GPS location</string>
+    <string name="privacy_custom_data_heart_summary">Analyze your health condition</string>
+    <string name="privacy_custom_data_heart_title">Heartrate</string>
+    <string name="privacy_custom_data_time_summary">Analyze your fitness habits</string>
+    <string name="privacy_custom_data_time_title">Timestamps</string>
+    <string name="privacy_custom_general">General</string>
+    <string name="privacy_custom_general_auto_title">Automatically submit data</string>
+    <string name="privacy_custom_general_interval_title">Data collection interval</string>
+    <string name="privacy_mode_custom_description">0–65% - Flexible Plan\nSelected Data Only</string>
+    <string name="privacy_mode_custom_title">User Defined</string>
+    <string name="privacy_mode_maximum_description">0% - Personalized Plan\nMaximum Amount of Data</string>
+    <string name="privacy_mode_maximum_title">Maximum Data</string>
+    <string name="privacy_mode_minimum_description">65% - Flexible Plan\nMinimum Amount of Data</string>
+    <string name="privacy_mode_minimum_title">Minimum Data</string>
+    <string name="privacy_mode_obfuscation_description">100% - Standard Plan\nObfuscation Mode</string>
+    <string name="privacy_mode_obfuscation_title">Obfuscation</string>
+    <string name="privacy_mode_unknown_description">This mode should never actually occur.</string>
+    <string name="privacy_mode_unknown_title">Unknown</string>
+    <string name="privacy_setup_finish">Finish Setup</string>
+    <string name="privacy_setup_policy_title">Step 1</string>
+    <string name="privacy_setup_policy_subtitle">Please select the statements about our privacy
+        policy that you agree with most</string>
+    <string name="privacy_setup_policy_showAll">Show Entire Policy</string>
+    <string name="privacy_setup_mode_title">Step 2</string>
+    <string name="privacy_setup_mode_subtitle">Please make your privacy settings</string>
+    <string name="privacy_setup_mode_subsubtitle">Privacy Modes let you choose which data will be
+        submitted to the eHealth-company.\n\nYou can find the currently selected privacy mode below
+        and make adjustments if needed: </string>
+
+    <string name="session_defaultTitle">Untitled Fitness Session</string>
+    <string name="session_heartrate">Heartrate</string>
+    <string name="session_type_description_bicycle">Bicycle</string>
+    <string name="session_type_description_default">Default</string>
+    <string name="session_type_description_run">Running</string>
+    <string name="session_type_description_walk">Walking</string>
+
+    <string name="settings_privacy">Privacy Settings</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="unknown">Unknown</string>
+</resources>
